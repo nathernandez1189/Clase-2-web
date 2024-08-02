@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,96 @@
     <meta name="author" content="UAO">
     <title>Document</title>
 </head>
+
 <body>
-    
-</body>
+    <!--header-->
+    <header>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">blog</a>
+        </nav>
+    </header>
+    <main>
+        <img src="https://images.pexels.com/photos/27101529/pexels-photo-27101529/free-photo-of-blanco-y-negro-gafas-de-sol-mujer-modelo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="foto mujer calva">
+    </main>
+    <video width="400" controls>
+        <source src="../assets/conejo.mp4" type="video/mp4">
+        <source src="../assets/conejo.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="../assets/horse.ogm" type="audio/ogm">
+        Your browser does not support the audio tag.
+    </audio>
+    <iframe name="UAO" width="560" height="315" src="https://www.youtube.com/embed/hdg4vP-7x0k?si=7jGe4i9iQ2uBnrc4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+    <title>Ejemplo de Tabla</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1>Tabla</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>col1</th>
+                    <th>col2</th>
+                    <th>col2</th>
+                </tr>
+            </thead>
+        </table>
+        <form method="post" action="">
+            <label for="">nombre</label>
+            <input type="text" id="name" placeholder="nombre">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <input type="password" placeholder="password">
+            <label for="">fecha de nacimiento</label>
+            <input type="date">
+            <input type="checkbox" name="" id="">
+            <label for="">activo</label>
+            <textarea name="description" id="" cols="30" rows="10"></textarea>
+            <button>enviar</button>
+        </form>
+
+        <form action="" action="">
+            <select name="" id=""></select>
+            <option disabled selected>elige una opcion</option>
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+            </select>
+
+            <input type="submit" value="enviar">
+        </form>
+    </body>
+
 </html>
